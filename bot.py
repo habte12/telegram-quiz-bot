@@ -3,11 +3,9 @@ import pandas as pd
 import time
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes, ConversationHandler
-import os
-TOKEN = os.getenv("8773162240:AAFp2r0gJYxLRzVUeRFw-nwoNqUNn_JZaaw")
 
-
-ADMIN_ID = 5227519306  # replace with your Telegram ID
+TOKEN = "8773162240:AAFp2r0gJYxLRzVUeRFw-nwoNqUNn_JZaaw"
+ADMIN_ID = 123456789  # replace with your Telegram ID
 
 # مراحل
 NAME, SECTION, ROLL, QUIZ = range(4)
